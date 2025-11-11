@@ -18,7 +18,7 @@ Research About the App
 
 Before creating the app, I explored a few existing medicine reminder and health tracking applications. Most of them included features such as scheduling doses, tracking adherence, and displaying progress. I decided to design a simpler version that focuses on usability, basic reminders, and data visualization.
 
-Adhera uses the Streamlit framework because it allows developers to create interactive web apps entirely in Python. The main libraries I used are pandas for data handling, matplotlib for chart visualization, and Pillow (PIL) for generating a simple logo image.
+Adhera uses the Streamlit framework because it allows developers to create interactive web apps entirely in Python. The main libraries I used are pandas for data handling, matplotlib for charting, and Pillow (PIL) for generating a simple logo.
 
 Below is a summary of the main features and how they work:
 
@@ -26,7 +26,7 @@ Medicine Management:
 Users can add, delete, or import multiple medicines. Each medicine includes a name, scheduled time, and optional notes.
 
 User Login:
-Each user gets a separate JSON file (for example, adhera_snigdha.json), which stores their data. This ensures that multiple users can use the app without overwriting each other’s records.
+Each user gets a separate JSON file (e.g., adhera_snigdha.json) that stores their data. This ensures that multiple users can use the app without overwriting each other’s records.
 
 Daily Tracking:
 The app lets users mark their medicines as taken or missed, and it automatically saves the records with timestamps.
@@ -75,3 +75,5 @@ Working on Adhera taught me that good software is not just about code — it’s
 <img width="1440" height="900" alt="Screenshot 2025-11-08 at 12 28 49 PM" src="https://github.com/user-attachments/assets/53d5fd75-9ff6-43a4-a489-7b3fd488eaf2" />
 
 <img width="1440" height="900" alt="Screenshot 2025-11-08 at 12 28 37 PM" src="https://github.com/user-attachments/assets/50674452-4581-49bb-8a68-728ec9867288" />
+
+
